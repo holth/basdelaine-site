@@ -15,35 +15,35 @@
   <!-- Bootstrap Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-  <style>
-    :root { --bdl-bg: #ffffff; --bdl-fg: #000000; }
-    html, body { height: 100%; background: var(--bdl-bg); color: var(--bdl-fg); font-family: 'Lora', serif; }
-    .bdl-wrap { min-height: 100%; display: flex; align-items: center; justify-content: center; padding: 2rem; }
-    .bdl-card { border: none; background: transparent; text-align: center; max-width: 720px; }
-    .bdl-title { letter-spacing: 0.02em; line-height: 1.25; }
-    .bdl-subtitle { opacity: 0.85; }
-    .bdl-links a { color: var(--bdl-fg); text-decoration: none; margin: 0 0.5rem; font-size: 1.5rem; }
-    .bdl-links a:hover { text-decoration: underline; }
-    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
-  </style>
+  <!-- Styles sheet -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="bdl-wrap container">
     <main class="bdl-card">
-      <h1 class="bdl-title display-5 mb-3">One quiet change at a time.</h1>
+      <span class="bdl-logo fw-bolder d-block display-6">Bas de Laine</span>
+
+      <div class="bdl-logo d-block my-4">***</div>
+
+      <h1 class="bdl-title display-5 mb-3 fw-bold">One quiet change at a time.</h1>
+
       <p class="bdl-subtitle lead mb-4">Moins de bruit, plus d’espace.</p>
+
       <div class="bdl-links d-flex justify-content-center align-items-center gap-3">
-        <a href="https://instagram.com/YOUR_INSTAGRAM_HANDLE" target="_blank" rel="noopener noreferrer">
+        <a href="https://instagram.com/basdelaineapp" target="_blank" rel="noopener noreferrer">
           <i class="bi bi-instagram"></i> <span class="sr-only">Instagram</span>
         </a>
-        <a href="https://facebook.com/YOUR_FACEBOOK_HANDLE" target="_blank" rel="noopener noreferrer">
+        <a href="https://facebook.com/basdelaineapp" target="_blank" rel="noopener noreferrer">
           <i class="bi bi-facebook"></i> <span class="sr-only">Facebook</span>
         </a>
       </div>
     </main>
   </div>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
           crossorigin="anonymous"></script>
+  
+  <script src="scripts.js"></script>
 </body>
 </html>
